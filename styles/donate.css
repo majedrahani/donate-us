@@ -1,0 +1,169 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* header section style */
+
+header {
+
+    background-repeat: no-repeat;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+        url(../images/donation13.jpg);
+    background-size: cover;
+    height: 669px;
+
+}
+
+.header-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+    padding: 174px 307px 20px;
+    margin-bottom: 20px;
+
+}
+
+.header-sub-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 60px;
+
+}
+
+.btn-prymery {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding: 16px 12px;
+    margin: auto;
+    background: #FF5959;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+    border: 0;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 35px;
+
+}
+
+/* donate today section */
+
+.today-title {
+
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    margin-top: 130px;
+}
+
+.today-descriotion {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.amount {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-box {
+    margin-top: 50px;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+    color: #707070;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.amount-box:hover {
+    border: 1px solid blue;
+    background-color: #FF5959;
+    color: #FAFAFA;
+}
+
+h6 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-bottom: 9.5px;
+}
+
+hr {
+    max-width: 765px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #DADADA;
+    margin-bottom: 30px;
+
+}
+
+/* our donate plan section */
+.plan-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+
+.plan-sub-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+.plan {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.plan-box {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top:63px ;
+}
+.box-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.box-detiles{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
