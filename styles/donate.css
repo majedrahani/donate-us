@@ -111,14 +111,16 @@ h6 {
 }
 
 hr {
-    max-width: 765px;
     display: flex;
-    align-items: center;
+    margin: auto;
     justify-content: center;
+    width: 700px;
 
-    border: 1px solid #DADADA;
-    margin-bottom: 30px;
 
+}
+
+.btn-prymery {
+    margin-top: 30px;
 }
 
 /* our donate plan section */
@@ -136,6 +138,7 @@ hr {
     font-weight: 400;
     font-size: 18px;
     color: #707070;
+    padding-bottom: 70px;
 }
 
 .plan {
@@ -143,6 +146,9 @@ hr {
     gap: 24px;
     margin-top: 50px;
     justify-content: center;
+    width: 1000px;
+    margin: auto;
+
 
 }
 
@@ -150,20 +156,171 @@ hr {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     width: 360px;
-    height: 352px;
+    height: 250px;
     padding-left: 23px;
     padding-right: 23px;
-    padding-top:63px ;
+    padding-top: 63px;
+    margin-bottom: 130px;
 }
-.box-title{
+
+.box-title {
     font-weight: 600;
     font-size: 24px;
     color: #121212;
     margin-top: 31px;
     margin-bottom: 16px;
 }
-.box-detiles{
+
+.box-detiles {
     font-weight: 400;
     font-size: 16px;
     color: #707070;
+}
+
+/* feture 1 section */
+.feture {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 80px;
+}
+
+.feture1-img {
+    width: 570px;
+    height: 420px;
+}
+
+.feture-pera-box {
+    width: 493px;
+    height: 374px;
+    text-align: left;
+}
+
+.feture-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.feture-pera-1 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.feture-pera-2 {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.btn-cntr {
+    padding: 16px 21px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF5959;
+}
+
+.feture-2 {
+    margin-top: 100px;
+}
+
+/* subscribe section */
+
+.subscribe {
+    margin-top: 130px;
+}
+
+.subscribe-container {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.subscribe-discription {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-top: 20px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.email-box {
+    width: 809px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.emaile-subs {
+    width: 432px;
+    height: 48px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.email {
+    height: 48px;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+    padding-right: 100px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+}
+
+.subscribe-b {
+    height: 48px;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5959;
+    color: #FAFAFA;
+    padding: 0px 35px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-title {
+    color: #FF5959;
+    padding-top: 43px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+.footer-sub-title{
+    padding-top: 24px;
+    padding-bottom: 46px;
+}
+footer{
+    margin-top: 130px;
 }
